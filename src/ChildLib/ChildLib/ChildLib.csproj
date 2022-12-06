@@ -1,13 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <Version>1.0.2</Version>
+    <Version>2.0.2</Version>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="GrandChildLib" Version="1.0.1" />
+    <PackageReference Include="GrandChildLib" Version="5.0.1" />
   </ItemGroup>
-
 </Project>
