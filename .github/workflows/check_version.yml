@@ -1,0 +1,20 @@
+name: Check version
+
+on: [ workflow_dispatch ]
+
+# 環境にあわせて修正してください。
+env:
+  # ソースファイルのあるフォルダ
+  SOURCE_FOLDER: src/ChildLib
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Chackout Code
+      uses: actions/checkout@v2
+
+    - name: Check Release View
+      run: gh release view -R https://github.com/maegawa-h/ChildLib
