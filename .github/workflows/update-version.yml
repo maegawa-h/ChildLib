@@ -49,7 +49,6 @@ jobs:
                         $nodes = $xml_nav.Select("/Project/ItemGroup/PackageReference")
                         While ($nodes.MoveNext()) # MoveNext()メソッドによる値の取り出し
                         {
-                            $Matches.Clear()
                             try
                             {
                                 $libName = $nodes.Current.getattribute("Include", "")
