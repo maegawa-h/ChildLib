@@ -17,3 +17,5 @@ jobs:
         repoList: .\ref\ref_repository_list.csv
         isCommit: true
         addTag: true
+        githubToken: ${{secret.GH_TOKEN}}
+
