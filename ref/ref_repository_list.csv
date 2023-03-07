@@ -1,2 +1,3 @@
-ChildLib, https://github.com/maegawa-h/
-GrandChildLib, https://github.com/maegawa-h/
+PackageName, Repository
+ChildLib, https://github.com/maegawa-h/ChildLib
+GrandChildLib, https://github.com/maegawa-h/GrandChildLib
